@@ -13,8 +13,8 @@ from datetime import datetime
 # Import modules
 try:
     import config
-    from vector_extractor import VectorExtractor
-    from feature_extractor import FeatureExtractor
+    from modules import VectorExtractor
+    from modules import FeatureExtractor
     from style_matcher import StyleMatcher
     from style_transfer import StyleTransfer
     from text_generator import TextGenerator
